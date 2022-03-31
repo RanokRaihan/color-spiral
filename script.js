@@ -41,7 +41,7 @@ const interval = setInterval(() => {
         }
     }
     //
-}, 8.33);
+}, 10);
 
 stopButton.addEventListener("click", () => {
     clearInterval(interval);
