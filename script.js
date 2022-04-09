@@ -1,5 +1,4 @@
 const parent = document.querySelector(".parent");
-const stopButton = document.querySelector(".stop");
 let isBoxAdding = true;
 let boxCount = 0;
 let boxLength = 50;
@@ -42,7 +41,3 @@ const interval = setInterval(() => {
     }
     //
 }, 8.33);
-
-stopButton.addEventListener("click", () => {
-    clearInterval(interval);
-});
